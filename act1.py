@@ -1,0 +1,21 @@
+from tkinter import*
+window=Tk()
+window.geometry("400x200")
+window.title("My First Tkinter Window")
+lbl=Label(text="WELCOME",bg="black",fg="white",width=30)
+lbl.pack()
+Btn=Button(text="How are you?",bg="red",fg="yellow" ,width=20)
+Btn.pack()
+ent=Entry(bg='pink',fg='blue')
+ent.pack()
+txt=Text(bg='green' ,fg='yellow')
+txt.pack()
+frm=Frame(master=window,relief=RAISED,borderwidth=15)
+frm.pack()
+lbl2=Label(text="It's Winters",bg="orange",fg="green")
+btn2=Button(text="It's a button",bg='red',fg='yellow')
+lbl2.pack()
+btn2.pack()
+
+
+window.mainloop()
